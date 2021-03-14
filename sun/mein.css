@@ -1,0 +1,28 @@
+h1{
+			font-family: cursive;
+			text-align: center;
+			
+			
+		}
+		img{
+			width: 100%
+			
+		
+		}
+		p{
+			font-family: cursive;
+			font-size: 25px;
+			color: red;
+		}
+		div{
+			margin-left: 15%;
+			width: 70%;
+			border: 3px dashed black;
+			border-radius: 30px;
+			padding: 10px;
+			background-color: rgb(126 162 252);
+
+		}
+		body{
+		background-color: rgb(233 103 245);	
+		}
