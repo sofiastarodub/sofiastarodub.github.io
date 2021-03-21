@@ -1,0 +1,21 @@
+h1{	
+  text-align: center;
+}
+.item{	
+    width:40%;
+    height:300px;
+    border: 10px solid pink;
+    margin: 10px;
+}
+.mein{
+     border: 2px solid blue;
+     width: 70%;
+     margin-right: 15%;
+     margin-left: 15%;
+     display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+}
+	
+   
