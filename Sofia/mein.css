@@ -8,16 +8,19 @@ h1{
     margin: 10px;
     background-size: cover;
     background-position: center;
-    opacity: 0.70;
+    opacity: 0.60;
+
 
 }
 .item:hover{
     border: 5px solid black;
     box-shadow: 5px 5px 5px red;
     box-shadow: 5px -6px 8px red;
-    border-radius: 5px;
+    border-radius: 10px;
     opacity: 1;
-    transition: 0.3s;
+    transition: 3s;
+    transform:  rotate3d(0,0,1,3600000deg);
+
 }
 .mein{
      border: 2px solid blue;
@@ -27,6 +30,7 @@ h1{
      display:flex;
     flex-wrap: wrap;
     justify-content: center;
+
  
 }
 .img1{ 
@@ -52,5 +56,11 @@ h1{
 }
 .img8{
     background-image: url(img/008.jpg);
+}
+body{
+ background-image: url(img/555.jpg);
+ background-size: cover;
+ background-attachment: fixed;
+         
 }
    
