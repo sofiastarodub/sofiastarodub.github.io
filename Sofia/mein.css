@@ -2,10 +2,10 @@ h1{
   text-align: center;
 }
 .item{	
-    width:40%;
-    height:300px;
+    width: 100%;
+    height: 100%;
     border: 10px solid pink;
-    margin: 10px;
+   
     background-size: cover;
     background-position: center;
     opacity: 0.60;
@@ -18,7 +18,7 @@ h1{
     box-shadow: 5px -6px 8px red;
     border-radius: 10px;
     opacity: 1;
-    transition: 3s;
+    transition: 0.3s;
     transform:  rotate3d(0,0,1,3600000deg);
 
 }
@@ -62,5 +62,10 @@ body{
  background-size: cover;
  background-attachment: fixed;
          
+}
+a{
+    width: 40%;
+    height: 350px;
+    margin: 10px;
 }
    
